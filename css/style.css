@@ -1,0 +1,63 @@
+  * {
+    /*border: 1px solid red;*/
+
+    /* Gör så att margin och padding räknas in i height och width: */
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+    color: rgb(237, 220, 205);
+}
+
+#main {
+background-color: rgb(18, 18, 18);
+width: 980px;
+margin: 0 auto;
+padding: 30px;
+}
+
+p {
+    padding: 10px;
+    line-height: 1.8 ;
+}
+
+/* HEADLINES */
+
+h1, h2, h3, h4 {
+    font-family: "Maragsa", sans-serif;
+    color: rgb(255, 203, 34);
+}
+
+h1{
+color: white;
+font-size: 90px;
+text-align: center;
+padding-bottom: 20px;
+}
+
+/* IMAGES */
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+/* MISC PAGE ELEMENTS */
+
+.breadcrumbs {
+    color: #8d712a;
+    text-decoration: none;
+  
+  }
+
+#breadcrumbs {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+a {
+    color: #248ab6;
+    text-decoration: none;
+}
